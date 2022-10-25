@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Animated Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form>
+        <div class="txt_field">
+          <label class="l">Username</label>
+          <input type="email" id="uname" class="txt" required />
+          <div>
+            <label class="error" id="username-error"></label>
+          </div>
+        </div>
+        <div>
+          <label class="l">Password</label>
+          <input type="password" id="pass" class="txt" required />
+          <div>
+            <label class="error" id="password-error"></label>
+          </div>
+        </div>
+        <div class="check">
+          <label id="finalCheck"></label>
+        </div>
+        <input type="submit" id="submit" value="Login" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
